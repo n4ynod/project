@@ -1,0 +1,110 @@
+html,body {
+    
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+        
+        url(../images/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+p{
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.test{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.home-nav li{
+    display: inline-block;
+     
+    
+}
+
+
+.home-nav{
+    margin-top: 5%;
+   margin-left: 30%;
+ 
+   
+}
+
+
+
+
+
+
+.home-nav a {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 20px;
+    font-size: 20px;
+  
+   
+    
+}
+
+
+.home-nav li a:hover {
+  color: skyblue;
+}
+
+
+
+.home-logo img {
+    padding-bottom: 8%;
+    margin-left: 25%;
+}
+
+
+
+.home-title{
+ 
+    margin-top: 23%;
+}
+
+
+.home-title h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+ 
+
+.small-p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+
+    
+.far{
+    font-size: 40px;
+    color:aliceblue;
+    text-align: center;
+  margin-top: 12% auto;
+    margin-left: 12% auto;
+}
+
+
+
