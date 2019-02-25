@@ -15,16 +15,33 @@ header{
 
 
 p{
-    color:white;
+    
     font-family: 'Roboto Mono', monospace;
 }
 
-.test{
-    margin: 0 auto;
+a{
+    color:white;
+    text-decoration: none;
 }
 
+.bt-n{
+  border: 1px solid white;
+    border-radius: 4px;
+    padding: 4px;
+    border: 1px solid white;
+    margin-left: 38%;
+    font-size: 17px;
+    
+}
 
-
+.bt-n:hover{
+    color:skyblue;
+    text-decoration: none;
+    border-radius: 4px;
+   
+    
+    
+}
 
 
 
@@ -93,18 +110,77 @@ p{
     text-align: center;
     text-transform: uppercase;
     font-size: 12px;
+    color:white;
 }
 
 
 
     
-.far{
+/*.fas{
     font-size: 40px;
     color:aliceblue;
     text-align: center;
   margin-top: 12% auto;
-    margin-left: 12% auto;
+    margin-left: 20%;
 }
+*/
+
+/*Section*/
+
+
+
+.articles{
+    padding-top: 20px;
+    
+   margin-top: 30% auto;
+  
+    
+    
+    
+    
+}
+
+
+.articles-text{
+    
+    padding-left: 40px ;
+    margin-top: 9% ;
+    margin-left: 35% auto;
+    color: black;
+    text-align: center;
+    
+}
+
+.titre h1{
+    padding-bottom: 3% ;
+    font-size: 20px;
+}
+
+/*======BAS DE PAGE=========*/
+
+
+.copyright{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    opacity: 0.79;
+}
+
+.copyright p{
+    font-size: 10px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
