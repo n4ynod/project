@@ -1,5 +1,9 @@
+*{
+    list-style: none;
+}
+
 html,body {
-    
+   
 }
 
 
@@ -13,6 +17,10 @@ header{
 }
 
 
+
+h3{
+     font-family: 'Ubuntu', sans-serif;
+}
 
 p{
     
@@ -44,7 +52,55 @@ a{
 }
 
 
+.htn{
+    color:  #0093d4;
+  font-size: 100%;
+}
 
+
+.custom btn{
+    color: aqua;
+}
+.custom{
+    padding-top: 3%;
+    background-color: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.custom a{
+    
+    color:skyblue;
+    
+}
+
+
+
+.custom a:hover{
+    color:deepskyblue;
+}
+
+
+
+.logo {
+    padding-top: 3%;
+    padding-left: 49%;
+}
+
+
+
+
+/*
+.custom{
+    background-color:black;
+   
+}
+.custom li a{
+    color:red;
+}
+*/
+
+/*
 .home-nav li{
     display: inline-block;
      
@@ -87,12 +143,12 @@ a{
     padding-bottom: 8%;
     margin-left: 28%;
 }
-
+*/
 
 
 .home-title{
  
-    margin-top: 23%;
+    margin-top: 40%;
 }
 
 
@@ -114,29 +170,27 @@ a{
 }
 
 
+/*==============SECTION 1 CONTENT ==============*/
 
-    
-/*.fas{
-    font-size: 40px;
-    color:aliceblue;
-    text-align: center;
-  margin-top: 12% auto;
-    margin-left: 20%;
+.fuse{ 
+    width: 228px;
+    height:  322;
 }
-*/
 
-/*Section*/
+.at2{
+    padding-top: 10%;
+}
 
 
+.works{
+    padding: 4%;
+}
 
 .articles{
     padding-top: 20px;
     
    margin-top: 30% auto;
-  
-    
-    
-    
+
     
 }
 
@@ -156,17 +210,171 @@ a{
     font-size: 20px;
 }
 
+
+
+/*==============SECTION 2 CONTENT ==============*/
+
+
+.create{
+    
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+        
+        url(../images/work.jpg);
+    background-size: cover;
+ 
+}
+
+.progressbar {
+    color: white;
+    margin: 60px auto;
+}
+
+.progressbar li{
+    margin: 20px;
+}
+
+.bar{
+    background: #1ab2ff;
+    display: block;
+    height: 4px;
+   
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+    
+}
+
+
+.bar span{
+    height: 4px;
+   float: left;
+    background: #fff;
+   
+    
+    
+}
+
+
+
+
+
+
+.html{
+    width: 99%;
+    animation: html 2s;
+}
+
+.css{
+    width: 90%;
+animation: css 2s;
+}
+
+.js{
+    width: 5%;
+      animation: js 2s;
+}
+
+.love{
+    width: 100%;
+    animation: love 2s;
+}
+
+
+/*============ANIMATED===========*/
+
+
+@keyframes html {
+
+    
+    
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 99%;
+        
+    }
+}
+
+
+@keyframes css {
+
+    
+    
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 90%;
+        
+    }
+}
+
+@keyframes js {
+
+    
+    
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 5%;
+        
+    }
+}
+
+
+@keyframes love {
+
+    
+    
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 100%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*======BAS DE PAGE=========*/
+
+.fab{
+    font-size: 20px;
+    color: white;
+  
+}
+
+.fab:hover{
+    color:skyblue;
+   
+}
+
+
+
+
 
 
 .copyright{
-    text-align: center;
+   
     padding: 10px;
     background-color: black;
     opacity: 0.79;
 }
 
 .copyright p{
+    margin-top: 16px;
     font-size: 10px;
     color:white;
 }
