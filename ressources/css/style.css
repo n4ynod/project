@@ -227,6 +227,13 @@ a{
 .progressbar {
     color: white;
     margin: 60px auto;
+   
+}
+
+
+.section2 h1{
+    margin-top: 7%;
+    color: white;
 }
 
 .progressbar li{
@@ -257,8 +264,6 @@ a{
 
 
 
-
-
 .html{
     width: 99%;
     animation: html 2s;
@@ -278,6 +283,8 @@ animation: css 2s;
     width: 100%;
     animation: love 2s;
 }
+
+
 
 
 /*============ANIMATED===========*/
@@ -339,11 +346,46 @@ animation: css 2s;
 
 
 
+.download img{
+    height: 67%;
+    width: 100%;
+
+}
+
+.download h3{
+    font-size: 20px;
+    text-align: center;
+     letter-spacing: 4px;
+}
+
+.download p{
+    font-size: 12px;
+    text-align: center;
+   
+}
+
+
+.download{
+
+background-color: #fff;
+padding: 20px 20px;
+border-radius: 1px;
+box-shadow: 0 0 10px rgba(0,0,0,0.4);
+margin-bottom: 20px;
+}
+
+.down{
+    background-color: #60afff;
+    padding: 4%;
+
+}
 
 
 
-
-
+.title3{
+    color:white;
+    padding-bottom: 2%;
+}
 
 
 
