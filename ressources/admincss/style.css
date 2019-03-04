@@ -22,7 +22,7 @@ html, body{
    
     color:#ffffff;
     text-align: center;
-    background-color: rgba(159, 159, 159, 0.38);
+    background-color: rgba(159, 159, 159, 0.90);
    
     
 
@@ -36,6 +36,7 @@ html, body{
     border: 3px solid white;
   
     margin-top: 6%;
+    margin-bottom: 5%;
     text-align: center;
     
 }
@@ -120,7 +121,16 @@ color: #3495dd;
 .mod{
     margin-left: 10%;
     color: #00b14b;
+    
+    
+    
+    position: relative;
+  display: inline-block;
+ 
 }
+
+
+
 
 
 .ban {
@@ -156,7 +166,25 @@ margin-left: 30%;
     background-color: rgba(106, 132, 242, 0.87);
 }
 
+/*==============post setting===========*/
 
+
+.see{
+    margin-left: 10%;
+    color: #ffffff;
+}
+
+.folder{
+    margin-left: 90%;
+    
+    font-size: 30px;
+}
+
+
+.folder:hover{
+    
+color:rgba(46, 139, 247, 0.92);
+}
 
 
 
