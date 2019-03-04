@@ -1,0 +1,38 @@
+html, body{
+    
+
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+
+
+.logo{
+    height: 32px;
+    width: 32px;
+}
+
+
+.haut{
+    background-color: rgba(79, 37, 255, 0.44);
+    color:#ffffff;
+    text-align: center;
+   
+    
+
+}
+
+
+.cadre{
+    box-shadow: 0 0 10px #000000;
+    background-color: rgba(12, 12, 165, 0.6);
+    margin: 20%;
+    text-align: center;
+     color:#ffffff;
+    border-radius: 10px;
+}
+
+.cadre h2{
+  
+}
