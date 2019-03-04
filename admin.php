@@ -158,7 +158,7 @@
       <th scope="row">6</th>
       <td>Jacob</td>
       <td>Thornton</td>
-       <td><button type="button" class="btn btn-info">Voir plus</button> </td>
+     
   </tbody>
 </table>
     </div>
