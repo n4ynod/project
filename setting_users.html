@@ -135,7 +135,14 @@
                    <a onclick="myFunction()"href="#"><i class="fas fa-user-plus"></i></a>
             <script>
 function myFunction() {
-  alert("I am an alert box!");
+  var txt;
+  var r = confirm("Voulez vous ajouter un nouvel utilisateur ?");
+  if (r == true) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
 }
 </script>
                 
@@ -152,68 +159,93 @@ function myFunction() {
       
     <tr>
         
-      <th scope="col">#</th>
       <th scope="col">Nom d'utilisateur</th>
+      <th scope="col">Date d'inscription</th>
       <th scope="col">Adresse e-mail</th>
       <th scope="col">Action</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
+      <th scope="row">Mark</th>
+      <td>10 mai  2017</td>
+      <td>Otto@live.fr</td>
         <td><a href=""><i class="fas fa-user-minus del"></i></a> <a href="#"><i class="fas fa-ban ban "></i></a> <a href="#"><i class="fas fa-pen mod"></i></a>  
            
         </td>
     
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
+      <th scope="row">Tomson</th>
+      <td>19 Janvier 2018 </td>
+      <td>Thornton@hotmail.com</td>
       <td><a href=""><i class="fas fa-user-minus del"></i></a> <a href="#"><i class="fas fa-ban ban"></i></a> <a href="#"><i class="fas fa-pen mod"></i></a>  </td>
      
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
+      <th scope="row">Loic52</th>
+      <td>9 Janvier 2018</td>
+      <td>logic@orange.fr</td>
          <td><a href=""><i class="fas fa-user-minus del"></i></a> <a href="#"><i class="fas fa-ban ban"></i></a> <a href="#"><i class="fas fa-pen mod"></i></a>  </td>
         <tr>
-      <th scope="row">4</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
+      <th scope="row">kéké87</th>
+      <td>  20 mai 2018</td>
+      <td>Thor-nton@outlook.fr</td>
           <td><a href=""><i class="fas fa-user-minus del"></i></a> <a href="#"><i class="fas fa-ban ban"></i></a> <a href="#"><i class="fas fa-pen mod"></i></a>  </td>
             <tr>
-      <th scope="row">5</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
+      <th scope="row">lisa</th>
+      <td> 10 mai 2015</td>
+      <td>lisa_bst@hotmail.com</td>
           <td><a href=""><i class="fas fa-user-minus del"></i></a> <a href="#"><i class="fas fa-ban ban"></i></a> <a href="#"><i class="fas fa-pen mod"></i></a>  </td>
                     <tr>
-      <th scope="row">6</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
+      <th scope="row">Gabrielle B</th>
+      <td>5 Mars 2018</td>
+      <td>GabrielleBSpurgeon@dayrep.com </td>
          <td><a href=""><i class="fas fa-user-minus del"></i></a> <a href="#"><i class="fas fa-ban ban"></i></a> <a href="#"><i class="fas fa-pen mod"></i></a>  </td>
                                     <tr>
-      <th scope="row">8</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
+      <th scope="row">Richard Townsend</th>
+      <td>10 Octobre 2018</td>
+      <td>RichardDTownsend@armyspy.com </td>
          <td><a href=""><i class="fas fa-user-minus del"></i></a> <a href="#"><i class="fas fa-ban ban"></i></a> <a href="#"><i class="fas fa-pen mod"></i></a>  </td>
                                                     <tr>
-      <th scope="row">9</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
+      <th scope="row">Auda Leclerc</th>
+      <td>9 Janvier 2015</td>
+      <td>MerlinAucoin@armyspy.com </td>
          <td><a href=""><i class="fas fa-user-minus del"></i></a> <a href="#"><i class="fas fa-ban ban"></i></a> <a href="#"><i class="fas fa-pen mod"></i></a>  </td>
                                                                     <tr>
-      <th scope="row">10</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
+      <th scope="row">Germaine Parrot</th>
+      <td>2 Janvier 2019</td>
+      <td>GermaineParrot@dayrep.com </td>
          <td><a href=""><i class="fas fa-user-minus del"></i></a> <a href="#"><i class="fas fa-ban ban"></i></a> <a href="#"><i class="fas fa-pen mod"></i></a>  </td>
                         
   </tbody>
 </table>
             
+                
+                
+                
+            <div class="container">   
+                <div class="row">
+                    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-end">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+                        
+                        
+                    
+                    
+                </div>
+                </div>
             
             </div>
         </div>
@@ -229,7 +261,7 @@ function myFunction() {
   
     
     
-    
+ 
     
     
     

@@ -1,0 +1,71 @@
+html, body{
+
+background-color: rgba(255, 255, 255, 0.92);
+      
+}
+
+
+header{
+  background-color: gray;
+    background-position: center;
+    padding: 10%;
+   position: absolute;
+    height: 300px;
+    width: 100%;
+}  
+
+
+h3{
+    text-align: center;
+}
+
+
+
+
+/*==============CADRE===============*/
+.cadre{
+
+   margin-top: 24%;
+	padding-top: 1%;
+  
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.9);
+
+ 
+   
+    
+}
+
+
+
+
+
+.cadre img{
+display: block;
+	
+    margin: 0 auto;
+    border-radius: 80%;
+    height: 150px;
+    width: 150px;
+    border: 1px solid #1c1c1c;
+    padding: 3px;
+
+
+
+    
+    
+}
+
+
+.add{
+	margin-left: 87%;
+		color:#656565;
+	font-size: 30px;
+}
+
+.add:hover{
+	color:limegreen;
+}
+
+

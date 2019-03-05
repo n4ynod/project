@@ -30,7 +30,7 @@ html, body{
 
 
 .cadre1{
-     background-color: rgba(121, 121, 121, 0.38);
+     background-color: rgba(13, 13, 13, 0.38);
     color: #ffffff;
 
     border: 3px solid white;
@@ -49,7 +49,7 @@ html, body{
     font-size: 20px;
     border: 3px solid white;
     border-radius: 10px;
-     background-color: rgba(121, 121, 121, 0.38);
+     background-color: rgba(0, 0, 0, 0.38);
 }
 
 
@@ -65,7 +65,9 @@ color: #3495dd;
 
 
 
-
+.navcolor{
+   color:white;
+}
 
 
 
@@ -89,7 +91,7 @@ color: #3495dd;
 
 
 .cadre{
-     background-color: rgba(121, 121, 121, 0.38);
+  background-color: rgba(0, 0, 0, 0.38);
     color: #ffffff;
 
     border: 3px solid white;
@@ -153,7 +155,7 @@ color: #3495dd;
 
 .search{
     margin-top: 3%;
-margin-left: 30%;
+    margin-left: 30%;
 }
 
 
@@ -176,26 +178,36 @@ margin-left: 30%;
 
 .folder{
     margin-left: 90%;
-    
+  
     font-size: 30px;
+      
+}
+
+.folder a{
+    color:#ffffff;
+
+}
+
+.folder a:hover{
+    color: rgb(46, 139, 118);
 }
 
 
-.folder:hover{
-    
-color:rgba(46, 139, 247, 0.92);
+
+
+.clip{
+    padding-right: 10%;
+    color: #ffffff;
+}
+
+
+.clip:hover{
+    color: rgb(46, 139, 57);
 }
 
 
 
-
-
-
-
-
-
-
-
+/*===============ADMIN PAGE =============*/
 
 
 
