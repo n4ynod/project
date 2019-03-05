@@ -6,7 +6,7 @@ background-color: rgba(255, 255, 255, 0.92);
 
 
 header{
-  background-color: gray;
+  background-image: url(../images/userbg.gif);
     background-position: center;
     padding: 10%;
    position: absolute;
@@ -24,9 +24,11 @@ h3{
 
 /*==============CADRE===============*/
 .cadre{
-
-   margin-top: 24%;
-	padding-top: 1%;
+    
+   text-align: center;
+   padding: 50px;
+   margin-top: 18%;
+	padding-top: 3%;
   
     background-color: rgb(255, 255, 255);
     border-radius: 3px;
@@ -37,13 +39,8 @@ h3{
     
 }
 
-
-
-
-
 .cadre img{
 display: block;
-	
     margin: 0 auto;
     border-radius: 80%;
     height: 150px;
@@ -57,14 +54,35 @@ display: block;
     
 }
 
-
-.add{
-	margin-left: 87%;
-		color:#656565;
-	font-size: 30px;
+blockquote {
+    /* une paire de guillemets */
+    quotes: "«\00A0" "\00A0»";
 }
 
-.add:hover{
+
+
+
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: close-quote;
+}
+
+
+
+
+
+
+
+.add a{
+	margin-left: 90%;
+		color:#656565;
+	font-size: 30px;
+   
+}
+
+.add a:hover{
 	color:limegreen;
 }
 
