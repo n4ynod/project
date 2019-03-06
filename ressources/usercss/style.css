@@ -1,7 +1,7 @@
 html, body{
 
 background-color: rgba(255, 255, 255, 0.92);
-      
+      font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -17,11 +17,11 @@ header{
 
 .cadre h3{
     text-align: center;
-   
+   font-weight: bold;
     
 }
 .cadre a{
-    font-size: 13px;
+    font-size: 12px;
    
 }
 
@@ -61,7 +61,7 @@ display: block;
 }
 
 blockquote {
-    /* une paire de guillemets */
+    
     quotes: "«\00A0" "\00A0»";
 }
 
@@ -112,6 +112,38 @@ blockquote::after {
 .born p{
     font-size: 13px;
 }
+
+.publication h1{
+    padding-bottom:  10%;
+}
+
+
+.publication{
+    
+   text-align: center;
+   padding: 50px;
+   margin-top: 10%;
+	
+  
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.9);
+    
+    
+    
+}
+    
+
+ 
+.publication img{
+display: block;
+   
+    border-radius: 80%;
+    height: 60px;
+    width: 60px;
+   
+    padding: 3px;
+
 
 
 
