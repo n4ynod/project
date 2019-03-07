@@ -8,7 +8,7 @@ background-color: rgb(242, 242, 242);
 header{
   background-image: url(../images/userbg.gif);
     background-position: center;
-    padding: 11%;
+    padding: 12%;
    position: absolute;
     height: 300px;
     width: 100%;
@@ -28,7 +28,7 @@ header{
 
 .logo{
 height: 30px;
-	padding-left: 5%;
+	padding-left: 9%;
 	
 	
 }
@@ -38,7 +38,7 @@ height: 30px;
     
    text-align: center;
    padding: 50px;
-   margin-top: 18%;
+   margin-top: 23%;
 	padding-top: 2%;
   
     background-color: rgb(255, 255, 255);
@@ -54,7 +54,6 @@ height: 30px;
 display: block;
     margin: 0 auto;
     border-radius: 80%;
-    height: 150px;
     width: 150px;
     border: 2px solid #1c1c1c;
     padding: 3px;
@@ -127,7 +126,7 @@ blockquote::after {
     
    text-align: center;
    padding: 50px;
-   margin-top: 10%;
+   margin-top: 13%;
 	
   
     background-color: rgb(255, 255, 255);
@@ -140,8 +139,8 @@ blockquote::after {
 }
     
 .textpubli img{
-	height: 200px;
-	width: 300px;
+	height: 256px;
+	width: 240px;
 	 box-shadow: 0 0 6px rgba(0,0,0,0.3);
 	
 }
@@ -160,8 +159,18 @@ display: block;
 
 .textpubli{
 	text-align: left;
+	padding: 5%;
 	
 }
+
+.textpubli:hover{
+	background-color: rgba(0, 143, 219, 0.22);
+	transition: 1s;
+	border-radius: 5px;
+	
+}
+
+
 
 .publi{
 	margin-top: 5%;
@@ -178,20 +187,64 @@ display: block;
 /*===============NAVIGATION===============*/
 
 
+.tchat{
+	list-style: none;
+	
+}
 
+.tchat a{
+	
+	color:rgb(34, 47, 211);
+}
+
+
+.tchat a:hover{
+	color:#000000;
+	
+}
+
+
+.outils a{
+	color:rgb(34, 47, 211);
+}
+
+.outils a:hover{
+	color:#000000;
+}
 
 
 .outils{
 	
 margin-right: 10%;
 	
-	list-style: none;
+list-style: none;
 }
 
 
 
 
+.comunity a{
+	color:rgb(34, 47, 211);
+}
 
+.comunity a:hover{
+	color:#000000;
+}
+ 
+
+.comunity{
+	padding-right: 3%;
+	list-style: none;
+}
+
+
+.test{
+	
+	padding-bottom: 20%;
+	margin-left: 80%;
+	 box-shadow: 0 0 6px rgba(0,0,0,0.3);
+	padding: 3%;
+}
 
 
 
