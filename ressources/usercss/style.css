@@ -1,6 +1,6 @@
 html, body{
 
-background-color: rgba(255, 255, 255, 0.92);
+background-color: rgb(242, 242, 242);
       font-family: 'Ubuntu', sans-serif;
 }
 
@@ -8,7 +8,7 @@ background-color: rgba(255, 255, 255, 0.92);
 header{
   background-image: url(../images/userbg.gif);
     background-position: center;
-    padding: 10%;
+    padding: 11%;
    position: absolute;
     height: 300px;
     width: 100%;
@@ -26,7 +26,12 @@ header{
 }
 
 
-
+.logo{
+height: 30px;
+	padding-left: 5%;
+	
+	
+}
 
 /*==============CADRE===============*/
 .cadre{
@@ -39,7 +44,7 @@ header{
     background-color: rgb(255, 255, 255);
     border-radius: 3px;
     box-shadow: 0 0 6px rgba(0,0,0,0.9);
-
+	
  
    
     
@@ -51,7 +56,7 @@ display: block;
     border-radius: 80%;
     height: 150px;
     width: 150px;
-    border: 1px solid #1c1c1c;
+    border: 2px solid #1c1c1c;
     padding: 3px;
 
 
@@ -128,14 +133,20 @@ blockquote::after {
     background-color: rgb(255, 255, 255);
     border-radius: 3px;
     box-shadow: 0 0 6px rgba(0,0,0,0.9);
+	
     
-    
+    margin-bottom: 13%;
     
 }
     
-
+.textpubli img{
+	height: 200px;
+	width: 300px;
+	 box-shadow: 0 0 6px rgba(0,0,0,0.3);
+	
+}
  
-.publication img{
+.publi img{
 display: block;
    
     border-radius: 80%;
@@ -143,6 +154,50 @@ display: block;
     width: 60px;
    
     padding: 3px;
+	
+	
+}
+
+.textpubli{
+	text-align: left;
+	
+}
+
+.publi{
+	margin-top: 5%;
+	padding: 5px;
+
+}
+/*==============ScrollUp=========*/
+
+.scrollup{
+	padding-top: 5%;
+	
+}
+
+/*===============NAVIGATION===============*/
+
+
+
+
+
+.outils{
+	
+margin-right: 10%;
+	
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
